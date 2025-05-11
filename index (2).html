@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Electrochemical Cell Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Electrochemical Cell Setup</h2>
+
+  <label>Anode:</label>
+  <select id="anode"></select>
+
+  <label>Anode Electrolyte Concentration (mol/L):</label>
+  <select id="anodeConcentration"></select>
+
+  <label>Cathode:</label>
+  <select id="cathode"></select>
+
+  <label>Cathode Electrolyte Concentration (mol/L):</label>
+  <select id="cathodeConcentration"></select>
+
+  <br><br>
+  <button id="calculateBtn">Calculate E°cell</button>
+
+  <h3 id="result"></h3>
+
+  <script src="script.js"></script>
+</body>
+</html>
